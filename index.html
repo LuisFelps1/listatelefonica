@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contato!</title>
+    <link rel="stylesheet" href="main.css"
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="celular.png" alt="celular preto">
+            <h1>Lista de contatos</h1>
+        </header>
+        <form id="form-telefone">
+            <input id="nome-do-contato" type="text" required placeholder="Nome completo">
+            <input id="numero-do-contato" type="number" required placeholder="Número de contato" min="0">
+            <button type="submit">Enviar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do contato
+                    </th>
+                    <th>
+                        Número do contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Nenhum registro inserido</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
